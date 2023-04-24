@@ -1,0 +1,24 @@
+{
+  "name": "automailer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Soumavo Dey",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "cookie-session": "^2.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "google-auth-library": "^8.7.0",
+    "googleapis": "105",
+    "lodash": "^4.17.21",
+    "nodemailer": "^6.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
